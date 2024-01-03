@@ -17,9 +17,11 @@ This repository contains the code and data for a research project focused on cla
 ### Data Preprocessing
 
 1. **Baseline Calibration:** Due to variations in sensor readings at the start, a baseline calibration was performed by subtracting the average of the first 10 seconds from the readings of each sensor.
-Uncalibrated             |  Calibrated
-:-------------------------:|:-------------------------:
-![](Exp/uncalibrated.jpg)  |  ![](Exp/calibrated.jpg)
+
+| Uncalibrated           | Calibrated              |
+| ---------------------- | ---------------------- |
+| ![u](Exp/uncalibrated.jpg)  | ![c](Exp/calibrated.jpg) |
+
 
 2. **Feature Extraction:** Three window feature extraction methods were employed:
    - Without window
